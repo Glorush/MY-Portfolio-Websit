@@ -1,0 +1,8 @@
+menu      : home, about , service , portfolio/skill , team/testimonial , contact ;
+banner    : Hello, my name is Shanto Roy
+		And I'm a ...
+
+
+web site color:
+	blue:	#2888E2
+	black:  #1A1B20
