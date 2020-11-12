@@ -37,7 +37,7 @@ $(document).ready(function(){
 		dots:true,
 		margin:30,
 		nav:false,
-		autoplay:true,
+		autoplay:1000,
 		responsive : {
 			// breakpoint from 0 up
 			0 : {
@@ -51,8 +51,8 @@ $(document).ready(function(){
 	
 	//counterup
 	$('.counter').counterUp({
-        delay: 10,
-        time: 1000
+	    delay: 10,
+	    time: 1000
 	});
 	
 	
