@@ -598,7 +598,7 @@ a{
 	-webkit-transform:scale(0);
 	        transform:scale(0);
 	-webkit-transition:all .4s ease;
-	transition: all .4s ease;
+	transition: transform all .4s ease;
 }
 .isotop-items:hover .port-image-overlay{
 	-webkit-transform: scale(1);
@@ -686,6 +686,7 @@ a{
 
 .single-team-items:hover .team-img{
 	border-color:#3d3e42;
+    box-shadow: 1px 2px 20px #3d3e42 ;
 }
 .team-item{
 	padding:40px;
@@ -699,15 +700,16 @@ a{
 	background:#2888e2;
 }
 .team-img {
-	width:150px;
-	width: 15rem;
-	height:150px;
-	height: 15rem;
-	border-radius: 50%;
-	margin: 0 auto;
-	border: 6px solid #2888e2;
-	-webkit-transition:.4s ease-in-out;
-	transition:.4s ease-in-out;
+    width: 150px;
+    width: 15rem;
+    height: 150px;
+    height: 15rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 20px #2888e2 ;
+    border: 6px solid #2888e2;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
 }
 .team-img img {
 	width: 100%;
@@ -802,6 +804,7 @@ a{
 }
 .contact-inf ul li a:hover{
 	color:#2888e2;
+	text-decoration: underline;
 }
 .contact-form input[type="text"], .contact-form input[type="email"] {
 	width: 100%;
